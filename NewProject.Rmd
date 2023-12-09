@@ -13,3 +13,6 @@ This is my practice notebook
 plot(mtcars$mpg, mtcars$wt, col = "blue", main = "Scatter Plot of mpg vs wt", xlab = "mpg", ylab = "wt")
 ```
 
+```{r}
+plot(mtcars$mpg, mtcars$hp, col = "red", main = "Scatter Plot of mpg vs hp", xlab = "mpg", ylab = "hp")
+```
