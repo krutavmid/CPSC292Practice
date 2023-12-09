@@ -10,5 +10,6 @@ date: "2023-12-09"
 This is my practice notebook
 
 ```{r}
-plot(mtcars$mpg, mtcars$wt)
+plot(mtcars$mpg, mtcars$wt, col = "blue", main = "Scatter Plot of mpg vs wt", xlab = "mpg", ylab = "wt")
 ```
+
